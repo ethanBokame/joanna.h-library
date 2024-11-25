@@ -1,0 +1,106 @@
+body {
+    font-family: 'Inter', sans-serif !important;
+}
+
+
+.navbar {
+    background-color: #7451eb;
+}
+
+.container {
+    padding: 0 70px;
+}
+
+.navbar-brand {
+    font-weight: 750;
+    font-style: italic;
+}
+
+.h {
+    font-size: 140%;
+}
+
+.navbar-nav {
+    margin-top: 11px;
+}
+
+.navbar-nav .nav-link {
+    color: white;
+    transition: 0.3s;
+}
+
+.navbar-nav .nav-link:hover {
+    color: rgb(249, 176, 42);
+    transition: 0.3s;
+}
+
+@media (max-width: 575.98px) {
+    .navbar-nav  {
+        text-align: center;
+        padding-right: 10px;
+    }
+
+    .navbar-nav .nav-link {
+        opacity: 80%;
+    }
+
+    .navbar-nav .nav-link:hover {
+        color: rgb(223, 222, 222);
+        transition: 0.3s;
+    }
+
+    .border {
+        width: 100%;
+    }
+
+    .footer {
+        text-align: center;
+    }
+}
+
+.prinpre {
+    border-radius: 5px;
+    background-color: #f5f5f5;
+    padding: 25px;
+    cursor: copy;
+}
+
+.aaa {
+    background-color: #f5f5f5;
+    border-radius: 5px;
+}
+
+.descriptionplus ul li {
+    padding-bottom: 10px;
+}
+
+.descriptionplus ul ::marker {
+    color: #7451eb;
+}
+
+.footer {
+    background-color: #7451eb;
+    color: white;
+}
+
+.link-foot {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.676);
+    transition: 0.3s;
+}
+
+.link-foot:hover {
+    color: rgb(249, 176, 42);
+    transition: 0.3s;
+}
+
+.lastsentence {
+    background-color: #1f0e57;
+    color: rgba(255, 255, 255, 0.676);
+}
+
+.information {
+    width: 5%;
+}
+
+
